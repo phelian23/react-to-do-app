@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    color: #444343;
+  }
+  
+  .disflex {
+    display: flex;
+  }
+
+  .header {
+    border-bottom: 0.5px solid #d6d4d4;
+    padding-left: 3%;
+  }
+
+  .container {
+    width: 80vw;
+    max-width: 800px;
+    margin-top: 6%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    height: 100%;
+  }
+
+  .input-text {
+    width: 70%;
+    padding: 1%;
+    margin: 2%;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  button {
+    padding: 2px;
+  }
+
+  .todo-task {
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+  }
+
+  .title-text {
+    width: 70%;
+  }
+
+  .delete-btn {
+    margin-right: 10%;
+  }
+
+  .text-input {
+    width: 70%;
+    padding: 1%;
+    margin-left: 9%;
+  }
